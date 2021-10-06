@@ -85,7 +85,6 @@ def Main():
     with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
         executor.map(CaptchaSolver, range(1, 3))
 
-#Work in progress
 if __name__ == "__main__":
     CaptchaSolver('MAIN')
     Codechecker()
