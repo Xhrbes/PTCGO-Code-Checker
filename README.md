@@ -1,7 +1,10 @@
 # PTCGO-Code-Checker
 Mass verify hundreds of PTCGO (Pokemon TCG Online) codes at once using this request based checker.
 
+REQUIREMENTS
 YOU MUST have a V2 Captcha solving service for this code checker to work as the Pkmn company requires a valid captcha token to validate PTCGO codes.
+YOU MUST have a valid Pokemon Trainer Club account as you are required to be logged in to verify any codes.
+
 Through testing it appears that you can check as many codes as possible with the same captcha token until it expires. This means that you only need to generate one valid V2 captcha token every two mintutes.
 
 Although the code checker still works it is still quite primitve and requires manual input of the codes to verify. You may have to tweak the code slightly for better functionality.
